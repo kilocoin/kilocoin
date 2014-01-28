@@ -153,8 +153,8 @@ endif
 
 all: kilocoind
 
-test check: test_litecoin FORCE
-	./test_litecoin
+test check: test_kilocoin FORCE
+	./test_kilocoin
 
 #
 # LevelDB support
@@ -201,11 +201,11 @@ obj-test/%.o: test/%.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-test_litecoin: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
+test_kilocoin: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 	$(LINK) $(xCXXFLAGS) -o $@ $(LIBPATHS) $^ $(TESTLIBS) $(xLDFLAGS) $(LIBS)
 
 clean:
-	-rm -f kilocoind test_litecoin
+	-rm -f kilocoind test_kilocoin
 	-rm -f obj/*.o
 	-rm -f obj-test/*.o
 	-rm -f obj/*.P

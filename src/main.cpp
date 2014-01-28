@@ -31,7 +31,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0x379c60452be819c4b90b9d22ed185c2709e46db861ef12b43935f3ec3ba06109");
+uint256 hashGenesisBlock("0x432a9910e0406bf887a0e0b411456e07802e5b1df15d1315d7178c49824dee02");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Kilocoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -2723,7 +2723,7 @@ bool LoadBlockIndex()
         pchMessageStart[1] = 0xc1;
         pchMessageStart[2] = 0xb7;
         pchMessageStart[3] = 0xdc;
-        hashGenesisBlock = uint256("0x781d93268d091954860e8dcf564f06132cfded9cc607db8afb9dcceea2e845f8");
+        hashGenesisBlock = uint256("0x3e2cecbbc62f0c02b607975e79d4449bc71edb01a260c12ba36733a43f28e0cc");
     }
 
     //
@@ -2768,14 +2768,14 @@ bool InitBlockIndex() {
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1390925137;
+        block.nTime    = 1317972665;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 2086143756;
+        block.nNonce   = 1391953949;
 
         if (fTestNet)
         {
-            block.nTime    = 1390923645;
-            block.nNonce   = 386690237;
+            block.nTime    = 1310923645;
+            block.nNonce   = 1392577799;
         }
 
         //// debug print
@@ -4587,7 +4587,7 @@ void static KilocoinMiner(CWallet *pwallet)
 {
     printf("KilocoinMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("litecoin-miner");
+    RenameThread("kilocoin-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
