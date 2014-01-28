@@ -76,8 +76,8 @@ Installing the dependencies using MacPorts is very straightforward.
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone git@github.com:litecoin-project/litecoin.git litecoin
-        cd litecoin
+        git clone git@github.com:kilocoin-project/kilocoin.git kilocoin
+        cd kilocoin
 
 2.  Build kilocoind:
 
@@ -111,8 +111,8 @@ Rerunning "openssl version" should now return the correct version.
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone git@github.com:litecoin-project/litecoin.git litecoin
-        cd litecoin
+        git clone git@github.com:kilocoin-project/kilocoin.git kilocoin
+        cd kilocoin
 
 2.  Modify source in order to pick up the `openssl` library.
 
@@ -172,8 +172,8 @@ directory. We have to first create the RPC configuration file, though.
 Run `./kilocoind` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=litecoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Kilocoin/litecoin.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/Kilocoin/litecoin.conf"
+    echo -e "rpcuser=kilocoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Kilocoin/kilocoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/Kilocoin/kilocoin.conf"
 
 When next you run it, it will start downloading the blockchain, but it won't
 output anything while it's doing this. This process may take several hours.
@@ -181,5 +181,5 @@ output anything while it's doing this. This process may take several hours.
 Other commands:
 
     ./kilocoind --help  # for a list of command-line options.
-    ./kilocoind -daemon # to start the litecoin daemon.
+    ./kilocoind -daemon # to start the kilocoin daemon.
     ./kilocoind help    # When the daemon is running, to get a list of RPC commands

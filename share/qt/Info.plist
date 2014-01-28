@@ -3,7 +3,7 @@
 <plist version="0.9">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>litecoin.icns</string>
+	<string>kilocoin.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
@@ -17,17 +17,17 @@
 	<key>CFBundleExecutable</key>
 	<string>Kilocoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.litecoin.Kilocoin-Qt</string>
+	<string>org.kilocoin.Kilocoin-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>org.litecoin.KilocoinPayment</string>
+            <string>org.kilocoin.KilocoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>litecoin</string>
+              <string>kilocoin</string>
             </array>
           </dict>
         </array>
