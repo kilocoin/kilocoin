@@ -2198,8 +2198,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or litecoind</source>
-        <translation>发送命令到服务器或者 litecoind
+        <source>Send command to -server or kilocoind</source>
+        <translation>发送命令到服务器或者 kilocoind
 </translation>
     </message>
     <message>
@@ -2228,8 +2228,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: litecoind.pid)</source>
-        <translation>指定 pid 文件 (默认为 litecoind.pid)
+        <source>Specify pid file (default: kilocoind.pid)</source>
+        <translation>指定 pid 文件 (默认为 kilocoind.pid)
 </translation>
     </message>
     <message>

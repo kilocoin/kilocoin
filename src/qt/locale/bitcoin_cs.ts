@@ -2197,8 +2197,8 @@ Adresa: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or litecoind</source>
-        <translation>Poslat příkaz pro -server nebo litecoind</translation>
+        <source>Send command to -server or kilocoind</source>
+        <translation>Poslat příkaz pro -server nebo kilocoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2222,8 +2222,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: litecoind.pid)</source>
-        <translation>PID soubor (výchozí: litecoind.pid)</translation>
+        <source>Specify pid file (default: kilocoind.pid)</source>
+        <translation>PID soubor (výchozí: kilocoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

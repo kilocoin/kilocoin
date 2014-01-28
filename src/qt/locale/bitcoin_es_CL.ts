@@ -2200,8 +2200,8 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or litecoind</source>
-        <translation>Envia comando a litecoin lanzado con -server u litecoind
+        <source>Send command to -server or kilocoind</source>
+        <translation>Envia comando a litecoin lanzado con -server u kilocoind
 </translation>
     </message>
     <message>
@@ -2230,7 +2230,7 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: litecoind.pid)</source>
+        <source>Specify pid file (default: kilocoind.pid)</source>
         <translation>Especifica archivo pid (predeterminado: litecoin.pid)
 </translation>
     </message>

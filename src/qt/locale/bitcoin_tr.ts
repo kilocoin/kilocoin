@@ -2197,8 +2197,8 @@ Adres: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or litecoind</source>
-        <translation>-server ya da litecoind&apos;ye komut gönder</translation>
+        <source>Send command to -server or kilocoind</source>
+        <translation>-server ya da kilocoind&apos;ye komut gönder</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2222,8 +2222,8 @@ Adres: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: litecoind.pid)</source>
-        <translation>Pid dosyası belirt (varsayılan: litecoind.pid)</translation>
+        <source>Specify pid file (default: kilocoind.pid)</source>
+        <translation>Pid dosyası belirt (varsayılan: kilocoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

@@ -2200,8 +2200,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or litecoind</source>
-        <translation>Αποστολή εντολής στον εξυπηρετητή ή στο litecoind</translation>
+        <source>Send command to -server or kilocoind</source>
+        <translation>Αποστολή εντολής στον εξυπηρετητή ή στο kilocoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2225,8 +2225,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: litecoind.pid)</source>
-        <translation>Ορίστε αρχείο pid (προεπιλογή: litecoind.pid)</translation>
+        <source>Specify pid file (default: kilocoind.pid)</source>
+        <translation>Ορίστε αρχείο pid (προεπιλογή: kilocoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

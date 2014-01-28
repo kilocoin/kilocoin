@@ -49,7 +49,7 @@ Release Process
 	./bin/gbuild ../litecoin/contrib/gitian-descriptors/deps-win32.yml
 	mv build/out/litecoin-deps-0.0.5.zip inputs/
 
- Build litecoind and litecoin-qt on Linux32, Linux64, and Win32:
+ Build kilocoind and litecoin-qt on Linux32, Linux64, and Win32:
   
 	./bin/gbuild --commit litecoin=v${VERSION} ../litecoin/contrib/gitian-descriptors/gitian.yml
 	./bin/gsign --signer $SIGNER --release ${VERSION} --destination ../gitian.sigs/ ../litecoin/contrib/gitian-descriptors/gitian.yml

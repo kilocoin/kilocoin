@@ -86,4 +86,4 @@ DOS prompt:
 
 	cd \litecoin\src
 	mingw32-make -f makefile.mingw
-	strip litecoind.exe
+	strip kilocoind.exe

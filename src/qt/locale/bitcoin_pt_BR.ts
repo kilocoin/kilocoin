@@ -2196,8 +2196,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or litecoind</source>
-        <translation>Enviar comando para -server ou litecoind</translation>
+        <source>Send command to -server or kilocoind</source>
+        <translation>Enviar comando para -server ou kilocoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2221,8 +2221,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: litecoind.pid)</source>
-        <translation>Especifique um arquivo de pid (padrão: litecoind.pid)</translation>
+        <source>Specify pid file (default: kilocoind.pid)</source>
+        <translation>Especifique um arquivo de pid (padrão: kilocoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

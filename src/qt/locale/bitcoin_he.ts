@@ -2196,8 +2196,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or litecoind</source>
-        <translation>שלח פקודה ל -server או litecoind</translation>
+        <source>Send command to -server or kilocoind</source>
+        <translation>שלח פקודה ל -server או kilocoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2221,8 +2221,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: litecoind.pid)</source>
-        <translation>ציין קובץ pid (ברירת מחדל: litecoind.pid)</translation>
+        <source>Specify pid file (default: kilocoind.pid)</source>
+        <translation>ציין קובץ pid (ברירת מחדל: kilocoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

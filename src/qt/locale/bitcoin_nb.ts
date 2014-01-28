@@ -2198,8 +2198,8 @@ Adresse: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or litecoind</source>
-        <translation>Send kommando til -server eller litecoind</translation>
+        <source>Send command to -server or kilocoind</source>
+        <translation>Send kommando til -server eller kilocoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2223,8 +2223,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: litecoind.pid)</source>
-        <translation>Angi pid-fil (standardverdi: litecoind.pid)</translation>
+        <source>Specify pid file (default: kilocoind.pid)</source>
+        <translation>Angi pid-fil (standardverdi: kilocoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

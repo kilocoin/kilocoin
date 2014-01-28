@@ -2198,8 +2198,8 @@ Adress: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or litecoind</source>
-        <translation>Skicka kommando till -server eller litecoind</translation>
+        <source>Send command to -server or kilocoind</source>
+        <translation>Skicka kommando till -server eller kilocoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2223,8 +2223,8 @@ Adress: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: litecoind.pid)</source>
-        <translation>Ange pid fil (förvalt: litecoind.pid)</translation>
+        <source>Specify pid file (default: kilocoind.pid)</source>
+        <translation>Ange pid fil (förvalt: kilocoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

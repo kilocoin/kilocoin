@@ -1,7 +1,7 @@
-Compiling/running litecoind unit tests
+Compiling/running kilocoind unit tests
 ------------------------------------
 
-litecoind unit tests are in the `src/test/` directory; they
+kilocoind unit tests are in the `src/test/` directory; they
 use the Boost::Test unit-testing framework.
 
 To compile and run the tests:

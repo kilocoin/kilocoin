@@ -50,10 +50,10 @@ script: |
   export LD_PRELOAD=/usr/lib/faketime/libfaketime.so.1
   export FAKETIME=$REFERENCE_DATETIME
   export TZ=UTC
-  make -f makefile.linux-mingw $MAKEOPTS DEPSDIR=$STAGING litecoind.exe USE_UPNP=0 DEBUGFLAGS="-frandom-seed=litecoin" USE_SSE2=1
-  $HOST-strip litecoind.exe
+  make -f makefile.linux-mingw $MAKEOPTS DEPSDIR=$STAGING kilocoind.exe USE_UPNP=0 DEBUGFLAGS="-frandom-seed=litecoin" USE_SSE2=1
+  $HOST-strip kilocoind.exe
   mkdir $OUTDIR/daemon
-  cp litecoind.exe $OUTDIR/daemon
+  cp kilocoind.exe $OUTDIR/daemon
   cd ..
   mkdir nsis
   git archive HEAD | tar -x -C nsis

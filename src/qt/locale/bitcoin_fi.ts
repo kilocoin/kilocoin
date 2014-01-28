@@ -2197,8 +2197,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or litecoind</source>
-        <translation>Lähetä käsky palvelimelle tai litecoind:lle</translation>
+        <source>Send command to -server or kilocoind</source>
+        <translation>Lähetä käsky palvelimelle tai kilocoind:lle</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2222,7 +2222,7 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: litecoind.pid)</source>
+        <source>Specify pid file (default: kilocoind.pid)</source>
         <translation>Määritä pid-tiedosto (oletus: litecoin.pid)</translation>
     </message>
     <message>
