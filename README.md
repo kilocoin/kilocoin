@@ -9,14 +9,11 @@ Copyright (c) 2011-2013 Kilocoin Developers
 What is Kilocoin?
 ----------------
 
-Kilocoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 2.5 minute block targets
- - subsidy halves in 840k blocks (~4 years)
- - ~84 million total coins
-
-The rest is the same as Bitcoin.
- - 50 coins per block
- - 2016 blocks to retarget difficulty
+Kilocoin is a lite version of Litcoin using scrypt as a proof-of-work algorithm.
+ - 5 minute block targets
+ - ~10 billion total coins
+ - 159 coins per block
+ - 288 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
 the Kilocoin client sofware, see http://www.kilocoin.org.
